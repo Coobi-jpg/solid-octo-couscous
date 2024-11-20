@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Machine Game</title>
+    <link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+    <h1>Welcome to Lottery Machine Game!</h1>
+    <div id="lottery-container">
+        <div class="lottery" id="lottery1">01</div>
+        <div class="lottery" id="lottery2">01</div>
+        <div class="lottery" id="lottery3">01</div>
+    </div>
+    <div class="controls">
+        <button onclick="pullMachine(1)">Pull Machine 1</button>
+        <button onclick="pullMachine(2)">Pull Machine 2</button>
+        <button onclick="pullMachine(3)">Pull Machine 3</button>
+        <button onclick="chooseMachine(1)">Choose Machine 1</button>
+        <button onclick="chooseMachine(2)">Choose Machine 2</button>
+        <button onclick="chooseMachine(3)">Choose Machine 3</button>
+    </div>
+    <p id="punishment">Accumulated Punishment: 0</p>
+    <p id="result"></p>
+    <script src="script_1.js"></script>
+</body>
+</html>
